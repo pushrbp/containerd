@@ -23,6 +23,8 @@ import (
 	"github.com/containerd/containerd/v2/cmd/containerd/command"
 
 	_ "github.com/containerd/containerd/v2/cmd/containerd/builtins"
+	
+	_ "github.com/containerd/fuse-overlayfs-snapshotter/plugin"
 )
 
 func main() {
