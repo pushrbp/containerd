@@ -15,7 +15,7 @@
 */
 
 package main
-import _ "github.com/containerd/fuse-overlayfs-snapshotter/plugin"
+
 import (
 	"fmt"
 	"os"
